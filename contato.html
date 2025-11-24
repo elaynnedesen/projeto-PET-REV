@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o Petshop Melhor Amigo. Agende serviços, tire dúvidas e conheça nossa localização. Estamos prontos para atender seu pet!">
+    <title>Contato - Petshop Melhor Amigo</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Ícones e Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ===========================
+            HEADER PADRONIZADO
+    ============================ -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+
+                <div class="nav-brand">
+                    <i class="fas fa-paw"></i>
+                    <h2>Melhor Amigo</h2>
+                </div>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+                    <li><a href="galeria.html" class="nav-link">Galeria</a></li>
+                    <li><a href="#" class="nav-link active">Contato</a></li>
+                </ul>
+
+                <a href="https://wa.me/5500000000000" class="cta-header-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Agendar no WhatsApp
+                </a>
+
+                <div class="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===========================
+            BANNER PADRONIZADO
+    ============================ -->
+    <section class="banner-produtos">
+        <div class="container">
+            <h1>Fale Conosco</h1>
+            <p>Entre em contato para agendar serviços ou tirar dúvidas.</p>
+        </div>
+    </section>
+
+    <!-- ===========================
+            FORMULÁRIO DE CONTATO
+    ============================ -->
+    <section class="contato-section">
+        <div class="container">
+
+            <h2 class="section-title">Envie sua mensagem</h2>
+
+            <form id="contato-form" class="contato-form">
+
+                <div class="form-group">
+                    <label for="nome">Nome Completo *</label>
+                    <input type="text" id="nome" required placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" required placeholder="exemplo@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone *</label>
+                    <input type="text" id="telefone" required placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="pet">Nome do Pet</label>
+                    <input type="text" id="pet" placeholder="Como seu pet se chama?">
+                </div>
+
+                <div class="form-group">
+                    <label for="servico">Serviço de Interesse</label>
+                    <select id="servico">
+                        <option value="">Selecione...</option>
+                        <option value="tosa">Tosa</option>
+                        <option value="banho">Banho</option>
+                        <option value="higiene">Higiene</option>
+                        <option value="racao">Ração</option>
+                        <option value="outro">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-group full">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" required placeholder="Escreva sua mensagem"></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="newsletter"> Desejo receber promoções</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="privacidade" required> Concordo com os termos de privacidade *</label>
+                </div>
+
+                <button type="submit" class="cta-button form-btn">
+                    <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- ===========================
+            BLOCO DE INFORMAÇÕES
+    ============================ -->
+    <section class="info-contato">
+        <div class="container">
+
+            <h2 class="section-title">Informações de Contato</h2>
+
+            <div class="info-grid">
+
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Telefone</h4>
+                    <p>(11) 9999-9999</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>E-mail</h4>
+                    <p>contato@melhoramigo.com</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Endereço</h4>
+                    <p>Rua dos Pets, 123 - Centro</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+            LOCALIZAÇÃO
+    ============================ -->
+    <section class="mapa-section">
+        <div class="container">
+
+            <h2 class="section-title">Nossa Localização</h2>
+
+            <div class="map-card">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.196705952775!2d-46.65447!3d-23.561414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                    width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <a href="https://www.google.com/maps/search/petshop" target="_blank" class="map-btn">
+                    <i class="fas fa-map"></i> Abrir no Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+            FAQ
+    ============================ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">Como agendar um serviço?</button>
+                <div class="faq-answer">Você pode agendar pelo WhatsApp ou pelo formulário de contato.</div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Quais formas de pagamento são aceitas?</button>
+                <div class="faq-answer">Aceitamos dinheiro, cartão e pix.</div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Preciso levar algum item do meu pet?</button>
+                <div class="faq-answer">Não é necessário, mas se quiser pode levar acessórios ou toalha do pet.</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===========================
+            CTA FINAL
+    ============================ -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Pronto para agendar seu serviço?</h2>
+            <p>Entre em contato e fale com um atendente agora mesmo.</p>
+
+            <a href="https://wa.me/5500000000000" class="cta-button">
+                <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- ===========================
+            FOOTER PADRONIZADO
+    ============================ -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-paw"></i>
+                        <h3>Melhor Amigo</h3>
+                    </div>
+                    <p>Cuidando do seu pet com amor e carinho.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua dos Pets, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (11) 9999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@melhoramigo.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Horário</h4>
+                    <p>Segunda à Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 16h</p>
+                    <p>Domingo: 9h às 15h</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Petshop Melhor Amigo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
